@@ -1,3 +1,5 @@
+[nodemailer](https://github.com/nodemailer/nodemailer)
+
 ## Outlook
 
 [如何开启 Outlook 的 POP 支持](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040)
@@ -14,7 +16,8 @@ node ./outlook.js node outlook.js {email} {email password}
 1. 接收邮件服务器：pop.qq.com，使用SSL，端口号995
 2. 发送邮件服务器：smtp.qq.com，使用SSL，端口号465或587
 
-注意，QQ 邮箱的 auth.pass 使用的是授权码，而不是邮箱密码
+注意，QQ 邮箱的 auth.pass 使用的是授权码，而不是邮箱密码。
+[授权码管理](https://service.mail.qq.com/cgi-bin/help?subtype=1&&id=10000&&no=1001607)
 
 ```shell
 node ./outlook.js node qq.mail.js {email} {Authorization Code}
