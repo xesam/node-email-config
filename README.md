@@ -1,4 +1,6 @@
-[nodemailer](https://github.com/nodemailer/nodemailer)
+# node-email-config
+
+基于 [nodemailer](https://github.com/nodemailer/nodemailer) 的 QQ邮箱、腾讯企业邮箱、Outlook 的 POP 配置。
 
 ## Outlook
 
